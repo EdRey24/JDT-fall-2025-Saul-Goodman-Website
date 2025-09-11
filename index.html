@@ -4,119 +4,510 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Saul Goodman | Attorney at Law</title>
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav>
-      <div class="left">
-        <a href="/">Saul Goodman</a>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo"
+            >Saul Goodman <span>| Attorney at Law</span></a
+          >
+          <ul class="nav-links">
+            <li><a href="#ad-video">Commercial</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Services</a></li>
+            <li><a href="#projects">Cases</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
+    </header>
 
-      <div class="right">
-        <a
-          href="https://github.com/saro0307/Better-call-Saul-LaywerGPT"
-          target="_blank"
-        >
-          <img id="github-img" src="images/github-mark.svg" alt="Github Logo" />
-          <span>Github</span>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/saul-goodman-43553a83/"
-          target="_blank"
-        >
-          <img
-            id="linkedin-img"
-            src="images/linkedin.svg"
-            alt="LinkedIn Logo"
-          />
-          <span>LinkedIn</span>
-        </a>
-
-        <a href="mailto:jamesmcgill312@earthlink.net" target="_blank">
-          <img id="email-img" src="images/email.png" alt="Email Logo" />
-          <span>Email</span>
-        </a>
-      </div>
-    </nav>
-
-    <main>
-      <!-- Section #1: Personal Statment -->
-      <section class="personal-statement">
-        <div class="text">
-          <h2>Hi, I'm Saul Goodman</h2>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="profile-img-container">
+            <img
+              src="images/profile-icon.png"
+              alt="Saul Goodman"
+              class="profile-img"
+            />
+          </div>
+          <h1>Hi, I'm Saul Goodman</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ipsum
-            cupiditate excepturi laudantium quisquam maxime perspiciatis quas
-            labore voluptates asperiores distinctio explicabo, eius minima
-            corrupti repudiandae. Eos minima nam nesciunt recusandae ratione
-            ipsam voluptates beatae odio, alias nulla, consequatur quasi magni
-            pariatur ab. Inventore neque optio saepe cum, possimus rem!
+            Did you know that you have rights? The Constitution says you do, and
+            so do I.
           </p>
-          <div class="links">
-            <a href="#skills">
-              <img src="images/skills-icon.png" alt="Skills Icon" />
-              <span>Skills</span>
-            </a>
-            <a href="#professional-experience">
+          <a href="#contact" class="btn">FREE CONSULTATION</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ad Video Section -->
+    <section id="ad-video">
+      <div class="container">
+        <div class="section-title">
+          <h2>Better Call Saul!</h2>
+          <p>Watch my latest commercial</p>
+        </div>
+        <div class="video-container">
+          <div class="video-wrapper">
+            <!-- Placeholder for video - replace with actual video embed code -->
+            <div class="video-placeholder">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/wqnHtGgVAUE?si=r-9AXNC2-J3boeF0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="video-description">
+            <h3>Why you should call Saul:</h3>
+            <ul>
+              <li>
+                <!-- Check icon as SVG-->
+                <img
+                  src="images/check-svgrepo-com.svg"
+                  class="check-icon"
+                  alt="Check Icon"
+                />
+                24/7 availability for emergencies
+              </li>
+              <li>
+                <img
+                  src="images/check-svgrepo-com.svg"
+                  class="check-icon"
+                  alt="Check Icon"
+                />
+                Creative legal solutions
+              </li>
+              <li>
+                <img
+                  src="images/check-svgrepo-com.svg"
+                  class="check-icon"
+                  alt="Check Icon"
+                />
+                Payment plans available
+              </li>
+              <li>
+                <img
+                  src="images/check-svgrepo-com.svg"
+                  class="check-icon"
+                  alt="Check Icon"
+                />
+                Discretion guaranteed
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Better Call Saul!</h3>
+            <p>
+              James Morgan "Jimmy" McGill, better known by my professional alias
+              Saul Goodman. I'm a criminal lawyer specializing in helping those
+              who find themselves in difficult situations with the law.
+            </p>
+            <p>
+              Originally from Cicero, Illinois, I moved to Albuquerque where I
+              established my law practice with a simple philosophy: everyone
+              deserves a vigorous defense. I believe that until proven guilty,
+              every man, woman, and child in this country is innocent.
+            </p>
+            <p>
+              My approach might be unconventional, but I get results. With
+              experience ranging from elder law to criminal defense, I've
+              successfully represented clients in some of Albuquerque's most
+              challenging cases.
+            </p>
+            <div class="signature">
+              <p>Saul Goodman, Esq.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-title">
+          <h2>Professional Experience</h2>
+        </div>
+        <div class="experience-container">
+          <div class="experience-item">
+            <div class="experience-date">2010 - Present</div>
+            <div class="experience-content">
+              <h3>Store Manager</h3>
+              <h4>Cinnabon, Albuquerque, NM</h4>
+              <p>
+                Served hot and fresh cinnamon rolls providing a decicious and
+                memorable experience to our customers.
+              </p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-date">2004 - 2010</div>
+            <div class="experience-content">
+              <h3>Partner</h3>
+              <h4>Saul Goodman & Associates, Albuquerque, NM</h4>
+              <p>
+                Established a successful law practice specializing in criminal
+                defense, personal injury, and elder law. Developed innovative
+                legal strategies that have consistently delivered favorable
+                outcomes for clients.
+              </p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-date">1999 - 2002</div>
+            <div class="experience-content">
+              <h3>Public Defender</h3>
+              <h4>
+                Bernalillo County Public Defender's Office, Albuquerque, NM
+              </h4>
+              <p>
+                Represented indigent clients in criminal proceedings. Gained
+                extensive courtroom experience and developed a deep
+                understanding of the local legal system.
+              </p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-date">1992 - 1999</div>
+            <div class="experience-content">
+              <h3>Mailroom Clerk</h3>
+              <h4>Hamlin, Hamlin & McGill, Albuquerque, NM</h4>
+              <p>
+                Supported senior partners in case preparation and legal
+                research. Specialized in document review and discovery
+                processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills/Services Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>Legal Services</h2>
+        </div>
+        <div class="skills-container">
+          <div class="skill">
+            <!-- Gavel icon as SVG-->
+            <img
+              src="images/gavel-svgrepo-com.svg"
+              class="skill-icon"
+              alt="Gavel Icon"
+            />
+            <h3>Criminal Defense</h3>
+            <p>
+              DUI, drug charges, assault, and other criminal matters. I know the
+              system and how to work it in your favor.
+            </p>
+          </div>
+          <div class="skill">
+            <!-- Money icon-->
+            <img
+              src="images/money-stack-svgrepo-com.svg"
+              class="skill-icon"
+              alt="Money Icon"
+            />
+            <h3>Civil Litigation</h3>
+            <p>
+              From personal injury to contract disputes, I'll fight to get you
+              the compensation you deserve.
+            </p>
+          </div>
+          <div class="skill">
+            <!-- Elder law icon-->
+            <img
+              src="images/people-svgrepo-com.svg"
+              class="skill-icon"
+              alt="Elder Law Icon"
+            />
+            <h3>Elder Law</h3>
+            <p>
+              Specializing in cases involving retirement homes and elder
+              financial abuse. I know all the tricks they use.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects/Cases Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>Notable Cases</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #8f94fb 0%, #4e54c8 100%);
+              "
+            >
+              Sandpiper Crossing
+            </div>
+            <div class="project-content">
+              <h3>Sandpiper Class Action</h3>
+              <p>
+                Successfully litigated a class-action lawsuit against Sandpiper
+                Crossing retirement community for systematic financial
+                exploitation of residents.
+              </p>
+              <a href="#" class="btn">Case Details</a>
+            </div>
+          </div>
+          <div class="project">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+              "
+            >
+              Mesa Verde
+            </div>
+            <div class="project-content">
+              <h3>Mesa Verde Bank</h3>
+              <p>
+                Represented Mesa Verde Bank in regulatory compliance matters,
+                helping them navigate complex financial regulations.
+              </p>
+              <a href="#" class="btn">Case Details</a>
+            </div>
+          </div>
+          <div class="project">
+            <div
+              class="project-img"
+              style="
+                background: linear-gradient(135deg, #00b894 0%, #00a085 100%);
+              "
+            >
+              Kettleman
+            </div>
+            <div class="project-content">
+              <h3>Kettleman Family</h3>
+              <p>
+                Secured favorable outcomes for members of the Kettleman family
+                in various legal matters requiring delicate negotiation tactics.
+              </p>
+              <a href="#" class="btn">Case Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <h2>Client Testimonials</h2>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                "Saul got me out of a real jam when no other lawyer would take
+                my case. He knows all the angles!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Badger</h4>
+              <p>Client</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                "I was facing serious time until Saul worked his magic. Worth
+                every penny!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Skinny Pete</h4>
+              <p>Client</p>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-text">
+              <p>
+                "When you need someone who knows how to work the system, Saul's
+                your guy. He made all my problems disappear."
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <h4>Danny</h4>
+              <p>Client</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Me</h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Better Call Saul!</h3>
+            <p>
+              Don't let legal trouble get you down. I'm here to help 24/7 with
+              discreet, effective legal solutions.
+            </p>
+            <p>
+              <!-- Phone icon as SVG -->
+
               <img
-                src="images/professional-experience-icon.png"
-                alt="Professional Experience Icon"
+                src="images/phone-flip-svgrepo-com.svg"
+                class="contact-icon"
+                alt="Phone Icon"
               />
-              <span>Professional Experience</span>
-            </a>
-            <a href="#projects">
-              <img src="images/projects-icon.png" alt="Projects Icon" />
-              <span>Projects</span>
-            </a>
-            <a href="#contact">
-              <img src="images/email.png" alt="Contact Icon" />
-              <span>Contact</span>
-            </a>
+              (505) 503-4455
+            </p>
+            <p>
+              <!-- Email icon as SVG -->
+              <img
+                src="images/email-svgrepo-com.svg"
+                class="contact-icon"
+                alt="Email Icon"
+              />
+              saul@bettercallsaul.com
+            </p>
+            <p>
+              <!-- Location icon as SVG -->
+
+              <img
+                src="images/location-pin-alt-1-svgrepo-com.svg"
+                class="contact-icon"
+                alt="Location Icon"
+              />
+              9800 Montgomery Blvd NE, Albuquerque, NM
+            </p>
+            <div class="office-hours">
+              <h4>Office Hours:</h4>
+              <p>24/7 - Because legal emergencies don't keep business hours</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Your Phone"
+                />
+              </div>
+              <div class="form-group">
+                <label for="case">Case Type</label>
+                <select id="case" class="form-control" required>
+                  <option value="">Select Case Type</option>
+                  <option value="criminal">Criminal Defense</option>
+                  <option value="civil">Civil Litigation</option>
+                  <option value="elder">Elder Law</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="Describe your situation"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+            </form>
           </div>
         </div>
-        <div class="headshot">
-          <img src="images/profile-icon.png" alt="Saul Goodman Headshot" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="logo">Saul Goodman <span>| Attorney at Law</span></div>
+            <p>
+              "When the going gets tough, you don't want a criminal lawyer. You
+              want a criminal lawyer."
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Services</a></li>
+              <li><a href="#projects">Cases</a></li>
+              <li><a href="#ad-video">Commercial</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-disclaimer">
+            <h4>Legal Disclaimer</h4>
+            <p>
+              Past results do not guarantee future outcomes. Legal services are
+              provided pursuant to the New Mexico Rules of Professional Conduct.
+            </p>
+            <p>© 2025 Saul Goodman & Associates. All rights reserved.</p>
+          </div>
         </div>
-      </section>
-
-      <!-- Section #2: Skills -->
-      <section id="skills" class="skills-section">
-        <h2>Skills</h2>
-        <div class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem quam, et corporis ipsum est, distinctio numquam sit
-          cupiditate labore enim nulla vitae autem. Ipsum, iusto!
-        </div>
-        <div class="cells">
-          <div class="cell">
-            <img src="images/video-editor.png" alt="Video Editing Icon" />
-            <span>Video Editing and Production</span>
-          </div>
-          <div class="cell">
-            <img src="images/guitar.png" alt="Guitar Icon" />
-            <span>Accomplished Guitarist</span>
-          </div>
-          <div class="cell">
-            <img src="images/money.png" alt="Money Icon" />
-            <span>Expert Numismatist</span>
-          </div>
-          <div class="cell">
-            <img src="images/caregiver.png" alt="Caregiver Icon" />
-            <span>Familial Caregiver</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section #3: Professional Experience -->
-      <section id="professional-experience"></section>
-
-      <!-- Section #4: Projects -->
-      <section id="projects"></section>
-
-      <!-- Section #5: Contact -->
-      <section id="contact"></section>
-    </main>
+      </div>
+    </footer>
   </body>
 </html>
