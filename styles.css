@@ -228,18 +228,6 @@ nav {
     color: white;
 }
 
-.video-placeholder {
-    text-align: center;
-    padding: 20px;
-}
-
-.video-placeholder .play-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 15px;
-    display: block;
-}
-
 .video-description {
     flex: 1;
     min-width: 300px;
