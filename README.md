@@ -21,7 +21,7 @@ This material is divided into two 1-hour workshops:
 - Making the site responsive
 
 ## Prerequisites
-- A code editor (VS Code, Sublime Text, or even Notepad)
+- A code editor (VS Code)
 - A web browser (Chrome, Firefox, Safari, or Edge)
 
 ---
@@ -51,7 +51,7 @@ The `<head>` section contains meta information about the document, such as its c
 
 The charset `<meta>` tag specifies the character encoding for the document. UTF-8 includes most characters from all human languages.
 
-The viewport `<meta>` tag controls how the page is displayed on mobile devices. width=device-width sets the page width to match the device's screen width. initial-scale=1.0 sets the initial zoom level to 100%.
+The viewport `<meta>` tag controls how the page is displayed on devices. width=device-width sets the page width to match the device's screen width. initial-scale=1.0 sets the initial zoom level to 100%.
 
 The `<title>` tag sets the text that appears in the browser tab. This is also used as the page title when bookmarking the site.
 
@@ -193,6 +193,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 
 ## Step 6: Creating the Experience Section
 
+For sections like experience where we will be adding more than one professional experience we'll want to copy the div "experience-item" as many times as you want within the "experience-container" div to showcase the various jobs you've had. After copying and pasting as many times as necessary just edit the information within to tailor it to each position.
+
 ```html
 <section id="experience">
     <div class="container">
@@ -215,6 +217,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 ```
 
 ## Step 7: Creating the Services Section
+
+The advice given in the previous step is showcased here where we want to display multiple skills and we do so by coping the div block with the class "skill" and pasting it as many times as needed within out "skills-container" div.
 
 ```html
 <section id="skills">
@@ -241,6 +245,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 ```
 
 ## Step 8: Creating the Cases Section
+
+This is also similar where you can copy the div class "project" as many times as needed to show every project. In this case since we are theming around Better Call Saul we are using the example of Law Cases but for other professions like programming this can be easily modified by changing the text for softward/hardware projects.
 
 ```html
 <section id="projects">
