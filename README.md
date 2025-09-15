@@ -21,20 +21,15 @@ This material is divided into two 1-hour workshops:
 - Making the site responsive
 
 ## Prerequisites
-- A code editor (VS Code, Sublime Text, or even Notepad)
+- A code editor (VS Code)
 - A web browser (Chrome, Firefox, Safari, or Edge)
 
 ---
 
 # Workshop 1: HTML Fundamentals and Basic Structure
 
-## Understanding the Basics
-
 ### What is HTML?
 HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure and content of a webpage. Think of HTML as the skeleton of a website - it defines the structure but doesn't make it look pretty.
-
-### What is CSS?
-CSS (Cascading Style Sheets) is used to style and layout web pages. It controls colors, fonts, spacing, and positioning. If HTML is the skeleton, CSS is the skin and clothing that makes it attractive.
 
 ## File Structure
 We'll create two files in the same folder:
@@ -51,7 +46,7 @@ The `<head>` section contains meta information about the document, such as its c
 
 The charset `<meta>` tag specifies the character encoding for the document. UTF-8 includes most characters from all human languages.
 
-The viewport `<meta>` tag controls how the page is displayed on mobile devices. width=device-width sets the page width to match the device's screen width. initial-scale=1.0 sets the initial zoom level to 100%.
+The viewport `<meta>` tag controls how the page is displayed on devices. width=device-width sets the page width to match the device's screen width. initial-scale=1.0 sets the initial zoom level to 100%.
 
 The `<title>` tag sets the text that appears in the browser tab. This is also used as the page title when bookmarking the site.
 
@@ -193,6 +188,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 
 ## Step 6: Creating the Experience Section
 
+For sections like experience where we will be adding more than one professional experience we'll want to copy the div "experience-item" as many times as you want within the "experience-container" div to showcase the various jobs you've had. After copying and pasting as many times as necessary just edit the information within to tailor it to each position.
+
 ```html
 <section id="experience">
     <div class="container">
@@ -215,6 +212,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 ```
 
 ## Step 7: Creating the Services Section
+
+The advice given in the previous step is showcased here where we want to display multiple skills and we do so by coping the div block with the class "skill" and pasting it as many times as needed within out "skills-container" div.
 
 ```html
 <section id="skills">
@@ -241,6 +240,8 @@ The `<iframe>` tag embeds another HTML page within the current page. We're using
 ```
 
 ## Step 8: Creating the Cases Section
+
+This is also similar where you can copy the div class "project" as many times as needed to show every project. In this case since we are theming around Better Call Saul we are using the example of Law Cases but for other professions like programming this can be easily modified by changing the text for softward/hardware projects.
 
 ```html
 <section id="projects">
@@ -396,6 +397,9 @@ The `<footer>` tag defines a footer for a document or section. It typically cont
 ---
 
 # Workshop 2: CSS Styling and Responsive Design
+
+### What is CSS?
+CSS (Cascading Style Sheets) is used to style and layout web pages. It controls colors, fonts, spacing, and positioning. If HTML is the skeleton, CSS is the skin and clothing that makes it attractive.
 
 ## Step 1: Setting Up Basic CSS Styles
 
@@ -1043,6 +1047,18 @@ Media queries apply different CSS rules based on conditions like screen width. T
 }
 ```
 
+# Deploy using Github Pages
+
+GitHub Pages is a free service that allows you to host static websites directly from your GitHub repositories.
+
+### Step 1: Configure Publishing Source
+1. Navigate to your repository's **Settings** → **Pages**
+2. Under **Build and deployment** → **Source**, select **Github Actions**
+3. When taken to the **Workflows** tab scroll down to **Pages** and select the Static HTML workflow
+4. Leave the workflow as is and just commit changes on the top right
+5. Allow the workflow to run and publish your website (This may take a while)
+6. Go to your **Deployments** and go to the link Github makes you to see your published website
+
 ## Final Thoughts
 
 Congratulations! You've built a complete personal website for Saul Goodman using HTML and CSS. Here are some key concepts we covered:
@@ -1069,5 +1085,6 @@ Remember, practice is key to mastering HTML and CSS. Try modifying this design o
 - [CSS-Tricks](https://css-tricks.com/) - Tips, tricks, and techniques on using CSS
 - [W3Schools](https://www.w3schools.com/) - Web development tutorials
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Free coding challenges and projects
+- [Odin Project](https://www.theodinproject.com/) - Free courses to learn more in-depth HTML, CSS, and Javascript
 
 Happy coding!
