@@ -23,6 +23,7 @@ This material is divided into two 1-hour workshops:
 ## Prerequisites
 - A code editor (VS Code)
 - A web browser (Chrome, Firefox, Safari, or Edge)
+- Live Server VS Code Extension
 
 ---
 
