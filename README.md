@@ -1049,6 +1049,18 @@ Media queries apply different CSS rules based on conditions like screen width. T
 }
 ```
 
+# Deploy using Github Pages
+
+GitHub Pages is a free service that allows you to host static websites directly from your GitHub repositories.
+
+### Step 1: Configure Publishing Source
+1. Navigate to your repository's **Settings** → **Pages**
+2. Under **Build and deployment** → **Source**, select **Github Actions**
+3. When taken to the **Workflows** tab scroll down to **Pages** and select the Static HTML workflow
+4. Leave the workflow as is and just commit changes on the top right
+5. Allow the workflow to run and publish your website (This may take a while)
+6. Go to your **Deployments** and go to the link Github makes you to see your published website
+
 ## Final Thoughts
 
 Congratulations! You've built a complete personal website for Saul Goodman using HTML and CSS. Here are some key concepts we covered:
@@ -1075,5 +1087,6 @@ Remember, practice is key to mastering HTML and CSS. Try modifying this design o
 - [CSS-Tricks](https://css-tricks.com/) - Tips, tricks, and techniques on using CSS
 - [W3Schools](https://www.w3schools.com/) - Web development tutorials
 - [FreeCodeCamp](https://www.freecodecamp.org/) - Free coding challenges and projects
+- [Odin Project](https://www.theodinproject.com/) - Free courses to learn more in-depth HTML, CSS, and Javascript
 
 Happy coding!
