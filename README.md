@@ -28,8 +28,6 @@ This material is divided into two 1-hour workshops:
 
 # Workshop 1: HTML Fundamentals and Basic Structure
 
-## Understanding the Basics
-
 ### What is HTML?
 HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure and content of a webpage. Think of HTML as the skeleton of a website - it defines the structure but doesn't make it look pretty.
 
