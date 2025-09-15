@@ -228,6 +228,11 @@ nav {
     color: white;
 }
 
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
 .video-description {
     flex: 1;
     min-width: 300px;
