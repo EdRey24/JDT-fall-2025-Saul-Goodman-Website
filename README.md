@@ -33,9 +33,6 @@ This material is divided into two 1-hour workshops:
 ### What is HTML?
 HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure and content of a webpage. Think of HTML as the skeleton of a website - it defines the structure but doesn't make it look pretty.
 
-### What is CSS?
-CSS (Cascading Style Sheets) is used to style and layout web pages. It controls colors, fonts, spacing, and positioning. If HTML is the skeleton, CSS is the skin and clothing that makes it attractive.
-
 ## File Structure
 We'll create two files in the same folder:
 1. `index.html` - Contains the content and structure
@@ -402,6 +399,9 @@ The `<footer>` tag defines a footer for a document or section. It typically cont
 ---
 
 # Workshop 2: CSS Styling and Responsive Design
+
+### What is CSS?
+CSS (Cascading Style Sheets) is used to style and layout web pages. It controls colors, fonts, spacing, and positioning. If HTML is the skeleton, CSS is the skin and clothing that makes it attractive.
 
 ## Step 1: Setting Up Basic CSS Styles
 
