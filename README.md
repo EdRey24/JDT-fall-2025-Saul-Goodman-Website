@@ -986,7 +986,95 @@ footer {
 }
 ```
 
-## Step 12: Making the Site Responsive
+## Step 12: Global Typography, Images, Links, Buttons, and Section Titles
+
+Headings (h1, h2, h3, h4) → Add spacing below each heading (margin-bottom: 15px;) and adjust line-height (1.2) for readability and tighter vertical rhythm.
+
+Paragraphs (p) → Add consistent bottom spacing (15px) so text blocks don’t look cramped.
+
+Images (img) → Make images responsive with max-width: 100% (they won’t overflow their container) and height: auto (keeps proportions correct).
+
+Links (a) → Default link color uses --primary. Remove underlines with text-decoration: none; and add smooth transitions with transition: var(--transition);. On hover, the color changes to --secondary.
+
+Buttons (.btn) → Styled as pill-shaped (border-radius: 30px;) with padding, uppercase text, bold weight, and letter spacing for emphasis. On hover, background color changes, the button lifts slightly (translateY(-3px)), and a subtle shadow appears for depth.
+
+Section Titles (.section-title) → Center-aligned with bottom margin for spacing. The h2 is styled larger (2.5rem), colored with --primary, and given a decorative underline using the ::after pseudo-element with the --accent color.
+
+```css
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: var(--primary);
+    color: white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--secondary);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: var(--primary);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+}
+
+```
+## Step 13: Making the Site Responsive
 
 Media queries apply different CSS rules based on conditions like screen width. This media query targets screens with a maximum width of 768px (typical mobile devices).
 
